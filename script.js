@@ -72,18 +72,3 @@ function calculateResult(userPick) {
 function getRandomFromZeroToTwo() {
   return Math.floor(Math.random() * 3);
 }
-
-/*
-const rules = {
-  rock:     { rock: "tie", paper: "user", scissors: "computer" },
-  paper:    { rock: "computer", paper: "tie", scissors: "user" },
-  scissors: { rock: "user", paper: "computer", scissors: "tie" },
-};
-
-function calculateResult(userPick) {
-  const computerPick = choices[getRandomFromZeroToTwo()];
-  const winner = rules[computerPick][userPick];
-
-  return { winner, computerPick };
-}
-*/
